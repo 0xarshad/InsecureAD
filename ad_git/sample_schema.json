@@ -1,0 +1,29 @@
+{   
+    "domain": "advuln.local",
+
+    "groups": [
+
+        {
+            "name": "CyberSecurity"
+        }
+              ],
+
+    "users":  [
+
+        {
+            "name": "John Doe`",
+            "password": "password123",
+            "groups": [
+                         "CyberSecurity"
+                      ]
+        },
+
+        {
+            "name": "Jane Smith",
+            "password": "password456",
+            "groups": [
+                         "CyberSecurity"
+                      ]
+        }
+              ]
+}
